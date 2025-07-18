@@ -1,5 +1,30 @@
+
+
+
 function calculateStudentGrade(score) {
   // Start coding here
+
+  if (score > 100 || score < 0) {
+    return "F";
+  }
+
+    if ( score >= 90){
+      return "A";
+    }
+
+    if (score >= 80){
+      return "B";
+    }
+
+    if (score >= 70){
+      return "C";
+    }
+
+    if (score >= 60){
+      return "D";
+    }
+
+    return " Check your Score";
 }
 
 // Example case
@@ -14,3 +39,5 @@ console.log(`Lisa grade is ${lisaGrade}`);
 console.log(`Jane grade is ${janeGrade}`);
 console.log(`JJ grade is ${jjGrade}`);
 console.log(`Alex grade is ${alexGrade}`);
+
+
