@@ -1,6 +1,28 @@
 function calculateStudentGrade(score) {
   // Start coding here
 }
+if (score > 100 || score < 0) {
+  return "F";
+}
+
+  if ( score >= 90){
+    return "A";
+  }
+
+  if (score >= 80){
+    return "B";
+  }
+
+  if (score >= 70){
+    return "C";
+  }
+
+  if (score >= 60){
+    return "D";
+  }
+
+  return " Check your Score";
+}
 
 // Example case
 let johnGrade = calculateStudentGrade(30);

@@ -3,3 +3,11 @@
 let lightBulbStatus = "Off";
 
 //Start coding here
+const message =
+    lightBulbStatus ==="On"
+    ? "Light bulb is On."
+    : lightBulbStatus === "OFF"
+    ? "Light bulb is Off."
+    : "Please choose the correct input (On/Off)"
+
+console.log(message);
